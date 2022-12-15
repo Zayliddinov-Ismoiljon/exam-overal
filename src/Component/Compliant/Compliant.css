@@ -1,0 +1,286 @@
+.compliant {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.compliant__title {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #1b1953;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.compliant__text {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+.compliant__revenu {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 9px;
+	line-height: 10px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 14px;
+}
+
+.compliant-current {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.red {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #ff2a3a;
+	border-radius: 3.24324px;
+	height: 13px;
+}
+
+.yellow {
+	width: 276px;
+	height: 13px;
+	background-color: #ffca2d;
+	border-radius: 3.24324px;
+	display: flex;
+	align-items: center;
+}
+
+.green {
+	width: 271px;
+	height: 13px;
+	background-color: #3cda73;
+	border-radius: 3.24324px;
+}
+
+.current_list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 14px;
+}
+
+.current__item {
+	width: 30%;
+	display: flex;
+}
+
+.current_span {
+	width: 10px;
+	height: 25px;
+	background-color: #3cda73;
+	border-radius: 10px;
+	margin-right: 15px;
+}
+
+.yellow_span {
+	background-color: #ffca2d;
+}
+
+.red_span {
+	background-color: #ff2a3a;
+}
+
+.business_title {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	margin: 32px 0px 14px 0px;
+	padding: 0;
+}
+
+.current_info {
+	margin: 0;
+	padding: 0;
+}
+
+.current_text {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 8px;
+	line-height: 10px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+.current_persentage {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 15px;
+	display: flex;
+	align-items: center;
+	color: #3cda73;
+}
+
+.yellow_per {
+	color: #ffca2d;
+}
+
+.red_per {
+	color: #ff2a3a;
+}
+
+.business_info {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 9px;
+	line-height: 10px;
+	color: #000000;
+}
+
+.business_statics {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 15px;
+	color: #3cda73;
+	margin-left: 31px;
+}
+
+.business_statics ~ .business_statics {
+	margin-left: 35px;
+}
+
+.business_staticsspan {
+	width: 131px;
+	height: 13px;
+	background-color: #f7f8fa;
+	border-radius: 2px;
+	display: flex;
+	align-items: center;
+}
+
+.business_staticsgreen {
+	width: 63px;
+	height: 13px;
+	background-color: #3cda73;
+	border-radius: 2px;
+}
+
+.gren {
+	width: 30px;
+}
+
+.info {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.business_about {
+	position: relative;
+	z-index: 1;
+}
+
+.business_about::after {
+	position: absolute;
+	content: '';
+	background-size: cover;
+	background-color: #ff2a3a;
+	width: 2px;
+	height: 57px;
+	top: -5px;
+	right: 53px;
+}
+
+.additional_title {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 14px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	margin: 36px 0px 11px 0px;
+	padding: 0;
+}
+
+.add_list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.add_item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	border-bottom: 0.648649px solid #3cda73;
+	margin-bottom: 12px;
+}
+
+.add_item:nth-child(2), .add_item:nth-child(3){
+	border-bottom: 0.648649px solid #FFCA2D;
+}
+
+.add_item:nth-child(2) .add_per{
+	color: #FFCA2D;
+}
+
+.add_item:nth-child(2), .add_item:nth-child(3) .add_per{
+	color: #FFCA2D;
+}
+
+.add_info {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 9px;
+	line-height: 10px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+
+.add_per {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	display: flex;
+	align-items: center;
+	color: #3cda73;
+}
+

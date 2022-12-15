@@ -1,0 +1,173 @@
+.overal_title {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #1b1953;
+}
+
+.overal_info {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	margin: 45px 0px 10px 0px;
+	padding-right: 25px;
+}
+
+.overal_per {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 41px;
+	text-align: right;
+	color: #1b1953;
+}
+
+.overal_reliable {
+	position: relative;
+	z-index: 1;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	display: flex;
+	align-items: center;
+	color: #999999;
+	border-radius: 10px;
+}
+
+.overal_reliable ::after {
+	position: absolute;
+	content: '';
+	background-image: url(https://cdn-icons-png.flaticon.com/512/8591/8591665.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 25px;
+	height: 25px;
+	top: -7px;
+	right: -22px;
+}
+
+.overal_pergreen {
+	color: #00c48c;
+	margin-left: 5px;
+}
+
+.green_per {
+	width: 100%;
+	display: block;
+	background-color: #00c48c;
+	height: 15px;
+	border-radius: 3.24324px;
+}
+
+.overal_list {
+	list-style-type: none;
+	padding: 0;
+	margin: 35px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.overal_item {
+	display: flex;
+	flex-direction: column;
+	margin: 0px 0px 12px 0px;
+	padding: 0;
+}
+
+.overal_text {
+	margin: 13px 0px 0px 0px;
+	padding: 0;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 15px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+
+.overal_num {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 15px;
+	display: flex;
+	align-items: center;
+	color: #006b3d;
+	width: 28px;
+	height: 28px;
+	background: #ffffff;
+	border: 1px solid #54527e;
+  text-align: center;
+  justify-content: center;
+}
+
+.overal_num{
+  border-bottom: none;
+}
+
+.rotate_info:last-child .overal_num{
+  border-bottom: 1px solid #54527e;
+}
+
+.rotate_info{
+  display: flex;
+  align-items: baseline;
+}
+
+.rotate{
+  width: 166px;
+  height: 10px;
+  background-color: #F7F8FA;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  display: flex;
+}
+
+.rotate_green, .rotate_gren2, .rotate_effect, .growth, .forecast, .voletian, .dvident, .economic{
+  width: 144px;
+  height: 10px;
+  background-color: #006b3d;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.rotate_gren2{
+  width: 154px;
+}
+
+.rotate_effect{
+  width: 154px;
+  background-color: #006B3D;
+}
+
+.growth, .voletian{
+  width: 109px;
+  background-color: #3CDA73;
+}
+
+.forecast{
+  width: 67px;
+  background-color: #FFCA2D;
+}
+
+.dvident{
+  width: 129px;
+  background-color: #3CDA73;
+}
+
+.economic{
+  width: 95px;
+  background-color: #FFCA2D;
+}
+
